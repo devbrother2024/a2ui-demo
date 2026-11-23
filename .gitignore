@@ -1,0 +1,28 @@
+# 의존성
+node_modules/
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# 빌드 결과
+dist/
+build/
+.vite/
+*.tsbuildinfo
+
+# 비밀 값
+.env
+.env.*
+
+# 공식 저장소 사본(참고용, 각자 clone)
+upstream/
+
+# 작업 메모·로그(공개하지 않음)
+notes/
+*.log
+
+# OS·편집기
+.DS_Store
+.idea/
+.vscode/

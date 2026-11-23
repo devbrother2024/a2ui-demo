@@ -1,0 +1,31 @@
+{
+  "name": "a2ui-side-by-side-demo",
+  "version": "1.0.0",
+  "description": "같은 질문을 텍스트 챗봇과 A2UI 에이전트에 보내 나란히 보는 데모",
+  "scripts": {
+    "dev": "tsx server/index.ts",
+    "typecheck": "tsc -p tsconfig.json"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "@a2ui/agent": "^0.1.0",
+    "@a2ui/react": "^0.15.0",
+    "@a2ui/web_core": "^0.15.0",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "zod": "^3.25.76"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@vitejs/plugin-react": "^6.3.0",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.8"
+  },
+  "private": true
+}
